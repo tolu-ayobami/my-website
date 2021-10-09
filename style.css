@@ -1,0 +1,174 @@
+ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    margin-right:25px;    
+}
+h1{
+    color: purple;
+    margin-left:70px;   
+}
+li a{
+    color: black;
+    text-decoration: none;
+    padding:14px;
+          
+}
+header{
+    display: flex;
+    justify-content:space-between;
+}
+
+li a:hover{
+    background-color: purple;
+    color:white;
+    border-radius: 10px;
+}
+
+.demo{
+    margin-left: 70px;
+    margin-top: 50px;
+    
+}
+.btn1{
+    height:45px;
+    border-radius: 10px;
+    width: 110px;
+    background-color: purple;
+    color: white;
+    border-color: purple;
+    
+
+
+}
+
+.btn1:hover{
+    background-color: white;
+    color:purple;
+    cursor: pointer;
+    
+}
+
+.btn2{
+    height:45px;
+    border-radius: 10px;
+    width: 110px;
+    border-color: purple;
+    background-color: white;
+    color:purple;
+    margin-left: 20px;
+    
+}
+.btn2:hover{
+    background-color: purple;
+    color:white;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 575px){
+    .air{
+        display: flex;
+        flex-direction:column;
+        
+    }
+    header{
+        display: flex;
+        flex-direction:column ;
+        margin-left: 20px;
+
+    }
+    .src{
+        display: flex;
+        flex-direction:column ; 
+    }
+    .src img{
+        margin:auto;
+        margin-top: 20px;
+
+    }
+}
+
+/*media for max-witdh:767*/
+    
+    @media screen and (max-width: 767px) and (min-width: 576px){
+        .air{
+            display: flex;
+            flex-direction:column ;
+        }
+        .src{
+            display: flex;
+            flex-direction:column ; 
+        }
+        .src img{
+            margin:auto;
+            margin-top: 20px;
+    
+        }
+        
+    }
+    @media screen and (max-width: 992px) and (min-width:768px){
+        .air{
+            display: flex;
+            flex-direction:column ;
+        }
+        .src{
+            display: flex;
+            flex-direction:column ; 
+        }
+        .src img{
+            margin:auto;
+            margin-top: 20px;
+    
+        }
+        
+    }
+
+
+   .dropdown{
+       position: relative;
+      display:inline-block;
+    }
+
+    .dropdown-content{
+        position: absolute;
+        display: none;
+        max-width: 200px;
+        background-color: rgb(240, 236, 236);
+        z-index: 1;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    }
+
+    .dropdown-content a{
+        display: block;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+    }
+
+   .dropdown:hover .dropdown-content {
+            display: block;
+   }
+
+
+   .drp{
+       display:flex;
+       justify-content: flex-end;
+       margin-right: 50px;
+       display:none;
+   }
+   .src{
+    display:flex;
+    justify-content: space-between;
+}
+
+.img{ 
+    margin-right: 200px;
+    border-radius: 100px;
+    margin-top: 50px;
+    
+}
+
+    
