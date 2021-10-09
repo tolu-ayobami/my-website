@@ -9,9 +9,11 @@ h1{
     color: purple;
     margin-left:70px;   
 }
+
 body{
-    background-color:powderblue;
+    background-color:gray;
 }
+
 li a{
     color: black;
     text-decoration: none;
@@ -74,9 +76,9 @@ li a:hover{
     .air{
         display: flex;
         flex-direction:column;
-        justify-content:center;
-        align-items:center;
-        
+     
+
+
     }
     header{
         display: flex;
