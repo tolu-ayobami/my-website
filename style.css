@@ -103,38 +103,38 @@ li a:hover{
 
 /*media for max-witdh:767*/
     
-    @media screen and (max-width: 767px) and (min-width: 576px){
-        .air{
-            display: flex;
-            flex-direction:column ;
-        }
-        .src{
-            display: flex;
-            flex-direction:column ; 
-        }
-        .src img{
-            margin:auto;
-            margin-top: 20px;
-    
-        }
+
+      
+            
+            
         
-    }
-    @media screen and (max-width: 992px) and (min-width:768px){
-        .air{
-            display: flex;
-            flex-direction:column ;
-        }
-        .src{
-            display: flex;
-            flex-direction:column ; 
-        }
-        .src img{
-            margin:auto;
-            margin-top: 20px;
-    
-        }
         
-    }
+            
+            
+       
+        
+            
+            
+    
+        
+        
+    
+    
+        
+            
+            
+        
+        
+           
+            
+        
+       
+            
+            
+    
+        
+        
+
 
 
    .dropdown{
