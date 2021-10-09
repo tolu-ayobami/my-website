@@ -67,7 +67,7 @@ li a:hover{
 }
 
 
-@media screen and (max-width: 575px){
+@media screen and (max-width: 400px){
     .air{
         display: flex;
         flex-direction:column;
