@@ -224,11 +224,11 @@ li a:hover{
     
 
 }
-.container p{ display: grid;
-    grid-gap:1px;
+
+    
     
 
-}
+
 
 .container2{
     border: 1px solid black;
@@ -242,12 +242,12 @@ li a:hover{
     
 
 }
-.container2 p{ display: grid;
-    grid-gap:1px;
-    margin-top: px;
+
     
 
-}
+    
+
+
 .all{
     display: flex;
     justify-content: center;
