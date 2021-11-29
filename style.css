@@ -87,7 +87,7 @@ li a{
     display: flex;
     justify-content: space-between;
     background-color: white; 
-    width: 190px;
+    width: 220px;
     height: 30px;
     align-items: center;
     border: 1px solid gray;
@@ -95,14 +95,14 @@ li a{
 
 }
  .search i{
-    margin-left: 5px;
+    margin-left: 15px;
      width:50px;
 }
 
 .search input{
     border: none;
     outline: none;
-    margin-left: 15px;
+    margin-right: 30px;
 }
 
 .ty .img{
