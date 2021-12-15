@@ -10,7 +10,11 @@ var pink = document.querySelector(".pink");
 var on = document.querySelector(".on");
 var off = document.querySelector(".off");
 
-on.addEventListener("click", function(){
+var myVar = setInterval(myTimer, 1000);
+
+on.addEventListener("click", myTimer);
+
+function myTimer(){
     green.style.backgroundColor =  colors[getRandomNumber()];
     red.style.backgroundColor =  colors[getRandomNumber()];
 
@@ -23,7 +27,7 @@ on.addEventListener("click", function(){
     pink.style.backgroundColor =  colors[getRandomNumber()];
 
 
-});
+}
 
 off.addEventListener("click", function(){
         green.style.backgroundColor = "white";
