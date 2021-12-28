@@ -76,7 +76,7 @@ var all = document.querySelector(".all");
 
 window.addEventListener("scroll", function () {
   const scrollHeight = window.pageYOffset;
-  const navHeight = all.getBoundingClientRect().height;
+  const navHeight = all.getBoundingClientRect().scroll;
   if (scrollHeight > navHeight) {
     all.classList.add("scrolled");
   } else {
