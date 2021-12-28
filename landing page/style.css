@@ -428,7 +428,7 @@ li a:hover{
 .back{
     
     background-size:cover;
-    background-image:linear-gradient(rgba(0,0,0,0.527), rgba(87, 48, 48, 0.527)),url("images/img 1.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.527), rgba(87, 48, 48, 0.527)),url("https://tolu-ayobami.github.io/my-website/landing page/Images/img 1.jpg");
     color: white;
     background-repeat: no-repeat;  
 }
