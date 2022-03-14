@@ -1,0 +1,55 @@
+body{
+    background-color:rgb(55, 55, 61); ;
+}
+
+.pattern{
+    width: 400px;
+    height: 20px;
+
+}
+
+.dice{
+    width: 25px;
+    height: 25px;
+    background-color: chartreuse;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.ad{
+    background-color:  rgb(47, 47, 71);
+    width: 400px;
+    height: 270px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 200px;
+}
+.p1{
+    font-size: 20px;
+    color: chartreuse;
+}
+.p2{
+    font-size: 28px;
+    color: white;
+}
+.dice:hover{
+    box-shadow: 4px 4px 8px 0px rgb(125, 173, 69);
+}
+
+
+
+@media screen and (max-width:380px){
+    .ad{
+        width: 100%;
+        box-sizing: border-box;
+        height: auto;
+    }
+    .pattern{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+}
