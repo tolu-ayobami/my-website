@@ -1,0 +1,98 @@
+
+.di{
+    background-color: black;
+    width: 10px;
+    height:20px;
+    border-radius: 20px;
+  }
+  
+  .light{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .hr-light{
+    width: 250px;
+   
+    margin: auto;
+    
+  }
+  
+  .green{
+    border: 1px solid black;
+    width: 20px;
+    height:20px;
+    border-radius: 20px;
+  
+  }
+  
+  .blue{
+    border: 1px solid black;
+    width: 20px;
+    height:20px;
+    border-radius: 20px;
+  
+  }
+  
+  .red{
+    border: 1px solid black;
+    width: 20px;
+    height:20px;
+    border-radius: 20px;
+  
+  }
+  
+  .yellow{
+    border: 1px solid black;
+    width: 20px;
+    height:20px;
+    border-radius: 20px;
+  
+  }
+  
+  .pink{
+    border: 1px solid black;
+    width: 20px;
+    height:20px;
+    border-radius: 20px;
+  }
+  
+  .gray{
+    border: 1px solid black;
+    width: 20px;
+    height:20px;
+    border-radius: 20px;
+  }
+  
+  .colr{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+  }
+  .on{
+    background-color: black;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+  }
+  .off{
+    background-color: black;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+  }
+  .btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
