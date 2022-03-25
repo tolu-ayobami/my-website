@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.demo{
+    background-color: hsl(236, 44%, 44%);
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.10), -4px -4px 8px 0 rgba(0, 0, 0, 0.1);
+    width: 170px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    top: 30px;
+    
+  
+    
+}
+.study{
+    margin-left: 120px;
+    width: 50px;
+    height: 50px;
+  
+}
+
+
+.tolu1{
+    background-color: rgb(245, 120, 70);
+    width: 190px;
+    height: 170px;
+    border-radius: 10px;
+    position: relative;
+  
+  
+    
+}
+.tolu{
+    display: flex;
+    justify-content: space-between;
+}
+.jere{
+    width: 60px;
+    height: 60px;
+    border:3px solid white;
+    border-radius: 50px;
+}
+.jeremi{
+    background-color: hsl(236, 59%, 62%);
+    width: 160px;
+    height: 210px;
+    padding: 15px;
+    border-radius: 15px;
+   
+    
+
+}
+.jeremi   span{
+    color: white;
+
+}
+
+.jeremi   h3{
+    color: white;
+
+}
+
+.cover{
+    background-color:hsl(236, 51%, 38%); 
+    width: 190px;
+    height: 360px;
+    border-radius: 15px;
+    
+}
+.cover p{
+    padding: 10px;
+    margin-left: 10px;
+    color: gray;
+
+}
+
+
+.cover p:hover{
+    color: white;
+
+
+}
+.all, .al{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+.all2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+}
+.all1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+ .demo p {
+    margin-top: 10px;
+
+}
+
+.tolu2{
+    background-color:powderblue;
+    width: 190px;
+    height: 170px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.tolu3{
+    background-color: rgb(241, 109, 135);
+    width: 190px;
+    height: 170px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.tolu4{
+    background-color: lightgreen;
+    width: 190px;
+    height: 170px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.tolu5{
+    background-color: rgb(70, 70, 238);
+    width: 190px;
+    height: 170px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.tolu6{
+    background-color: rgb(228, 228, 105);
+    width: 190px;
+    height: 170px;
+    border-radius: 10px;
+    position: relative;
+}
+
+@media screen and (max-width: 386px){
+
+    .all1{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+.all2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+}
+.al{
+    display: flex;
+    flex-direction: column;
+}
+.demo{
+   width: 210px;
+   height: 70px;
+   
+}
+ 
+.tolu1, .tolu2, .tolu2, .tolu3, .tolu4, .tolu5, .tolu6{
+    width: 230px;
+    height: 120px;
+    
+
+}
+.cover{
+    width: 230px;
+    height:210px ;
+}
+
+.jeremi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 110px;
+    
+}
+.sep{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.days{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+    
+}
+
+@media screen and (max-width: 485px){
+
+
+
+    .all1{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+.all2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+}
+.al{
+    display: flex;
+    flex-direction: column;
+}
+.demo{
+   width: 210px;
+   height: 70px;
+   
+}
+ 
+.tolu1, .tolu2, .tolu2, .tolu3, .tolu4, .tolu5, .tolu6{
+    width: 230px;
+    height: 120px;
+    
+
+}
+.cover{
+    width: 230px;
+    height:210px ;
+}
+
+.jeremi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 110px;
+    
+}
+.sep{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.days{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+}
+
+@media screen and (max-width: 685px){
+
+    
+    .all1{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+.all2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+}
+.al{
+    display: flex;
+    flex-direction: column;
+}
+.demo{
+   width: 230px;
+   height: 70px;
+   
+}
+ 
+.tolu1, .tolu2, .tolu2, .tolu3, .tolu4, .tolu5, .tolu6{
+    width: 250px;
+    height: 120px;
+    
+
+}
+.cover{
+    width: 250px;
+    height:210px ;
+}
+
+.jeremi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+    height: 110px;
+    
+}
+.sep{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.days{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+}
+  
+  
+    
