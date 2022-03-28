@@ -1,0 +1,449 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: whitesmoke;
+}
+ 
+.amyr{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+.month{
+    color:gray;
+
+}
+.amy{
+    display: flex;
+   gap: 15px;
+    align-items: center;
+}
+
+.amycover{
+    display: flex;
+    gap: 230px;
+    align-items: center;
+}
+
+.reply{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgb(82, 34, 82);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.reply:hover{
+    opacity: 0.5;
+
+}
+
+.mipl{
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    width: 650px;
+    height: 150px;
+    padding: 10px;
+    margin:auto;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.impressive{
+    margin-left: 20px;
+    margin-top: 10px;
+    
+
+}
+.fa-plus{
+    color:purple;
+}
+.fa-minus{
+    color: purple;
+}
+.twelve{
+    color: rebeccapurple;
+}
+
+.operation{
+    background-color: whitesmoke;
+    padding: 15px;
+    height: 83px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cover{
+    display: flex;
+    flex-direction: column;
+}
+
+.ty{
+    color: rgb(38, 31, 126);
+}
+.btreply{
+    background-color: rebeccapurple;
+    width: 110px;
+    height: 57px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight:bold;
+    border: none;
+    cursor: pointer;
+}
+.btreply:hover{
+    opacity: 0.5;
+
+}
+.comment{
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    width: 700px;
+    height: 150px;
+    padding: 10px;
+    margin:auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: none;
+    
+  
+      
+}
+
+.show{
+    display: block;
+    display: flex;
+    
+}
+
+.julius{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+.textarea{
+    width: 600px;
+    height: 100px;
+    border-radius: 10px;
+   border: 0.5px solid rgb(218, 128, 218);
+
+}
+
+.you{
+    background-color: rebeccapurple;
+    padding: 6px;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+}
+.delete{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+.delete:hover{
+    opacity: 0.6;
+}
+.edit:hover{
+    opacity: 0.6;
+}
+
+.edit{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.opera{
+    background-color: whitesmoke;
+    padding: 15px;
+    height: 83px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.amysmall{
+    display: flex;
+    gap: 100px;
+
+}
+
+.oper{
+    display: flex;
+    background-color: white;
+    gap: 20px;
+    background-color: white;
+    width: 600px;
+    height: 160px;
+    padding: 10px;
+    margin:auto;
+    border-radius: 10px;
+    margin-top: 40px
+
+
+}
+.tolu{
+    display: flex;
+    gap: 40px;
+}
+.ti{
+    color: rgb(211, 46, 17);
+}
+
+.answer{
+    margin-top: 15px;
+    height: 60px;
+    border: none;
+
+}
+
+.overlay{
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+    margin: auto;
+}
+
+.overl{
+    display: flex;
+align-items: center;
+justify-content: center;
+    position:fixed;
+    top: -110%;
+   background-image:linear-gradient(rgba(12, 12, 12, 0.527), rgba(22, 22, 22, 0.527));
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   padding: 50px; 
+   
+}
+
+
+
+.shola{
+    top: 0;
+    transition: 0.3s;
+}
+
+
+
+.butt{
+    display: flex;
+    gap: 20px;
+   
+}
+.cancel{
+    height: 50px;
+    width: 120px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mayor{
+    height: 50px;
+    width: 120px;
+    padding: 10px;
+    background-color: rgb(245, 8, 8);
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.sect{
+    display: none;
+}
+
+
+.tech{
+    display: none;
+}
+
+
+@media screen and (max-width: 475px){
+    .mipl{
+        position: relative;
+        height: 210px;
+       width: 400px;
+        box-sizing: border-box;
+      
+        
+    }
+
+    .amy{
+        display: flex;
+       justify-content: space-between;
+    }
+    .tg{
+        margin-left: 130px;
+    }
+    
+    .reply{
+        position: absolute;
+        left: 300px;
+        top: 60px;
+        margin-top: 100px;
+        
+    }
+
+   .operation{
+       margin-top: 100px;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       gap: 10px;
+       height: 40px;
+       position: absolute;
+       left: 20px;
+       top: 60px;
+      
+
+   }
+   .opera{
+
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    
+
+   }
+   .comment{
+       width: 400px;
+
+   }
+   .oper{
+       width: 400px;
+       height: 175px;
+       position: relative;
+   }
+   .delete{
+    position: absolute;
+    left: 250px;
+    margin-top: 125px;
+
+   }
+   .edit{
+    position: absolute;
+    left: 340px;
+    margin-top: 125px;
+
+   }
+
+}
+@media screen and (max-width:765px){
+    .mipl{
+        position: relative;
+        height: 210px;
+       width: 400px;
+        box-sizing: border-box;
+      
+        
+    }
+
+    .amy{
+        display: flex;
+       justify-content: space-between;
+    }
+    .tg{
+        margin-left: 130px;
+    }
+    
+    .reply{
+        position: absolute;
+        left: 300px;
+        top: 60px;
+        margin-top: 100px;
+        
+    }
+
+   .operation{
+       margin-top: 100px;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       gap: 10px;
+       height: 40px;
+       position: absolute;
+       left: 20px;
+       top: 60px;
+      
+
+   }
+   .opera{
+
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    
+
+   }
+   .comment{
+       width: 400px;
+
+   }
+   .oper{
+       width: 400px;
+       height: 175px;
+       position: relative;
+   }
+   .delete{
+    position: absolute;
+    left: 250px;
+    margin-top: 125px;
+
+   }
+   .edit{
+    position: absolute;
+    left: 340px;
+    margin-top: 125px;
+
+   }
+
+
+}
+    
+
+
+
+
+    
+
