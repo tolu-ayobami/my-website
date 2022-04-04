@@ -36,17 +36,17 @@
     },
 
     {
-        question:"who is tolu's crush?",
-    a:"ope",
-    b:"temmy",
-    c:"remi",
+        question:"what is HTML used for?",
+    a:"building web structure",
+    b:"styling",
+    c:"reading codes",
     d:"none of the above",
-    correct:"d",
+    correct:"a",
 },
 
 
 {
-    question:"what is the use of css in a web page?",
+    question:"what is CSS used for?",
 a:"styling",
 b:"building web structure",
 c:"trading",
