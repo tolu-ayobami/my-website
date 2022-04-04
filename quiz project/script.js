@@ -75,7 +75,6 @@ var def = document.querySelector(".ove");
 var okl = document.querySelector(".oka");
 
 
-let veg = va.value;
 
 
 let currentquiz = 0;
@@ -123,6 +122,9 @@ if (answer === quizData[currentquiz].correct){
    
 }
 currentquiz++;
+
+let veg = va.value;
+
 
 if(currentquiz > quizData.length-1){
     def.classList.add("feg");
