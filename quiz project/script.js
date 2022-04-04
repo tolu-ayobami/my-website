@@ -129,7 +129,7 @@ let veg = va.value;
 if(currentquiz > quizData.length-1){
     def.classList.add("feg");
     
-    okl.innerHTML = `<h2 class="web">${veg} you have answerd ${scores}/${quizData.length} questions correctly</h2>
+    okl.innerHTML = `<h2 class="web">${veg} you have answered ${scores}/${quizData.length} questions correctly</h2>
 
     <button class="def" onclick="location.reload()">Reload</button>
     `
