@@ -19,11 +19,11 @@
 
         {
             question:"what is my name?",
-        a:"icey",
+        a:"shola",
         b:"andrew",
         c:"tobi",
         d:"tolu",
-        correct:"a",
+        correct:"d",
     },
     
         {
