@@ -1,7 +1,7 @@
 {
   "name": "another",
   "version": "0.1.0",
-  " homepage":https://tolu-ayobami.github.io/my-website/another/public/index.html",
+  " homepage":https://tolu-ayobami.github.io/my-website",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
