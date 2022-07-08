@@ -474,7 +474,7 @@
 
 
     .ema{
-        width:150px
+        width:100px
     }
 
 
@@ -657,7 +657,7 @@ height: 100%;
     
     
     .ema{
-        width:150px
+        width:100px;
     }
     
     .head{
@@ -835,7 +835,9 @@ height: 100%;
     
 @media screen and (max-width:767px){
     
-    
+    .ema{
+        width:200px;
+    }
    
     
     .head{
@@ -1014,6 +1016,11 @@ height: 100%;
 
     
 @media screen and (max-width:980px){
+    
+    
+    .ema{
+        width:200px;
+    }
     
     .head{
         display: flex;
