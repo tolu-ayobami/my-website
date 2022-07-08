@@ -1,0 +1,1177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.ham, .hambug{
+    display: none;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap :30px;
+    list-style-type: none;
+    
+
+}
+
+.link li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin-top: 30px;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    
+}
+
+
+.gt{
+    width: 50px;
+    background-color: black;
+    height: 4px;
+ position: absolute;
+ top: 85px;
+}
+
+
+.btn1{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.main{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+
+.ok{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.po, .po2{
+    width: 600px;
+}
+
+
+.btn2{
+    padding: 20px;
+    background-color: rgb(231, 231, 231);
+    color: black;
+    width: 200px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.bty{
+    display:flex ;
+    gap:20px;
+}
+
+
+    
+.ref{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.first{
+    width: 400px;
+
+}
+
+.colab{
+    width: 150px;
+}
+
+
+.main1{
+    width: 400px;
+    height: 450px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: rgb(231, 231, 231);
+    border-radius:  0px 20px 20px 0px;
+    
+}
+
+
+.main2{
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    border-radius:  0px 20px 20px 0px;
+    
+    
+}
+
+
+.btn3{
+    padding: 20px;
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.three{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    gap: 50px;
+
+}
+
+
+.cir1{
+    width: 250px;
+    border-radius: 200px;
+    height: 250px;
+    background-color: black;
+}
+
+.circle1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.circle{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.for{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 400px;
+    
+}
+.for h1{
+    color: white;
+    font-size: 45px;
+}
+   
+.for input{
+    width: 230px;
+    outline: none;
+    border: none;
+    border-bottom: dotted gray;
+    background-color: black;
+}
+.for label{
+    color: gray;
+}
+
+.form{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 700px;
+
+}
+
+
+
+.main0{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    border-radius:  0px 20px 20px 0px;
+    
+    
+}
+
+
+.main3{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: rgb(231, 231, 231);
+    border-radius:  0px 20px 20px 0px;
+    
+}
+
+
+.main7{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: rgb(231, 231, 231);
+    border-radius:  0px 20px 20px 0px;
+    
+}
+
+
+.review{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 100px;
+   
+    justify-content: space-evenly;
+   
+    
+}
+
+.rat{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.main10{
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    border-radius:  0px 20px 20px 0px;
+    
+    
+}
+
+
+
+.main13{
+    width: 500px;
+    height: 350px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: rgb(231, 231, 231);
+    border-radius:  0px 20px 20px 0px;
+    
+}
+
+.strat{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+}
+.yusa{
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+.form2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    color: white;
+}
+
+
+
+.tex{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: gray;
+    border-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ema{
+    width: 290px;
+    height: 50px;
+    background-color: black;
+    color: gray;
+    border-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.form2 #area{
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    color: gray;
+    border-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.texa{
+    display: flex;
+    gap: 10px;
+}
+
+.yeno{
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.list p, .list1 p, .list2 p{
+    color: gray;
+
+}
+
+
+.list1{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+
+.texi{
+    width: 200px;
+    height: 50px;
+    color: gray;
+    border-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn9{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+
+}
+
+.list2{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+
+.foot{
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom:1px solid black;
+   margin-left: 100px;
+   margin-right: 100px;
+    
+}
+
+.two{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.svt{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tito{
+    margin-left: 100px;
+}
+
+.tit{
+    margin-left: 50px;
+}
+
+@media screen and (max-width:480px){
+
+
+
+
+
+
+    
+.head{
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+
+.links{
+position: absolute;
+top: 0;
+left: -100%;
+width: 100%;
+height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+   
+    
+
+}
+
+.yep{
+    left: 0;
+}
+
+
+
+.link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap :30px;
+    list-style-type: none;
+    margin-top: 40px;
+    
+    
+
+}
+.ham{
+    margin-top: 100px;
+}
+
+.link li a{
+    color: white;
+}
+
+.ham, .hambug{
+    display:block;
+}
+
+.ok{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main{
+    width: 80%;
+}
+
+.po{
+    width: 100%;
+}
+
+.ref{
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 60px;
+}
+
+
+.po2{
+    width: 100%;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+   
+}
+
+.first, .main2, .main1{
+    width: 350px;
+}
+
+.circle{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    height: 1000px;
+    padding: 20px;
+}
+
+.for{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 40px;
+}
+
+.tito{
+    margin-left: 0;
+    
+}
+
+.tit{
+    margin-left: 0;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+.main0, .main3, .main7{
+    width: 350px;
+}
+
+.rat, .strat{
+    display: flex;
+    flex-direction: column;
+}
+
+.main10, .main13{
+    width: 350px;
+}
+
+.yeno{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 50px;
+}
+
+.form2{
+    width: 100%;
+}
+
+.form2 #area{
+    width: 100%;
+}
+
+
+.foot{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+}
+
+.uyo{
+    display: flex;
+    gap: 40px;
+}
+
+    
+}
+
+
+
+
+@media screen and (max-width:380px){
+    
+    .head{
+        display: flex;
+        align-items: center;
+       
+        
+    }
+    
+    
+    .links{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        color: white;
+        transition: 0.5s;
+       
+        
+    }
+
+    
+.yep{
+    left: 0;
+}
+
+    
+    
+    
+    .link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap :30px;
+        list-style-type: none;
+        margin-top: 40px;
+        
+        
+    
+    }
+    .ham{
+        margin-top: 100px;
+    }
+    
+    .link li a{
+        color: white;
+    }
+    
+    .ham, .hambug{
+        display:block;
+    }
+    
+    .ok{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .main{
+        width: 80%;
+    }
+    
+    .po{
+        width: 100%;
+    }
+    
+    .ref{
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+    
+    
+    .po2{
+        width: 100%;
+    }
+    
+    .three{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+       
+    }
+    
+    .first, .main2, .main1{
+        width: 350px;
+    }
+    
+    .circle{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        height: 1000px;
+        padding: 20px;
+    }
+    
+    .for{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       padding-top: 40px;
+    }
+    
+    .tito{
+        margin-left: 0;
+        
+    }
+    
+    .tit{
+        margin-left: 0;
+    }
+    
+    .review{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    
+    .main0, .main3, .main7{
+        width: 350px;
+    }
+    
+    .rat, .strat{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main10, .main13{
+        width: 350px;
+    }
+    
+    .yeno{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 50px;
+    }
+    
+    .form2{
+        width: 100%;
+    }
+    
+    .form2 #area{
+        width: 100%;
+    }
+    
+    
+    .foot{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    
+    .uyo{
+        display: flex;
+        gap: 40px;
+    }
+    
+        
+    }
+
+
+    
+@media screen and (max-width:767px){
+    
+    .head{
+        display: flex;
+        align-items: center;
+       
+        
+    }
+    
+    
+    .links{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        color: white;
+        transition: 0.5s;
+       
+        
+    
+    }
+
+    
+.yep{
+    left: 0;
+}
+
+    
+    
+    
+    .link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap :30px;
+        list-style-type: none;
+        margin-top: 40px;
+        
+        
+    
+    }
+    .ham{
+        margin-top: 100px;
+    }
+    
+    .link li a{
+        color: white;
+    }
+    
+    .ham, .hambug{
+        display:block;
+    }
+    
+    .ok{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .main{
+        width: 80%;
+    }
+    
+    .po{
+        width: 100%;
+    }
+    
+    .ref{
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+    
+    
+    .po2{
+        width: 100%;
+    }
+    
+    .three{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+       
+    }
+    
+    .first, .main2, .main1{
+        width: 350px;
+    }
+    
+    .circle{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        height: 1000px;
+        padding: 20px;
+    }
+    
+    .for{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       padding-top: 40px;
+    }
+    
+    .tito{
+        margin-left: 0;
+        
+    }
+    
+    .tit{
+        margin-left: 0;
+    }
+    
+    .review{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    
+    .main0, .main3, .main7{
+        width: 350px;
+    }
+    
+    .rat, .strat{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main10, .main13{
+        width: 350px;
+    }
+    
+    .yeno{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 50px;
+    }
+    
+    .form2{
+        width: 100%;
+    }
+    
+    .form2 #area{
+        width: 100%;
+    }
+    
+    
+    .foot{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    
+    .uyo{
+        display: flex;
+        gap: 40px;
+    }
+    
+        
+    }
+
+
+
+    
+@media screen and (max-width:980px){
+    
+    .head{
+        display: flex;
+        align-items: center;
+       
+        
+    }
+    
+    
+    .links{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        color: white;
+        transition: 0.5s;
+       
+        
+    
+    }
+    
+    
+.yep{
+    left: 0;
+}
+
+    
+    
+    .link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap :30px;
+        list-style-type: none;
+        margin-top: 40px;
+        
+        
+    
+    }
+    .ham{
+        margin-top: 100px;
+    }
+    
+    .link li a{
+        color: white;
+    }
+    
+    .ham, .hambug{
+        display:block;
+    }
+    
+    .ok{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .main{
+        width: 80%;
+    }
+    
+    .po{
+        width: 100%;
+    }
+    
+    .ref{
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+    
+    
+    .po2{
+        width: 100%;
+    }
+    
+    .three{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+       
+    }
+    
+    .first, .main2, .main1{
+        width: 350px;
+    }
+    
+    .circle{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        height: 1000px;
+        padding: 20px;
+    }
+    
+    .for{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       padding-top: 40px;
+    }
+    
+    .tito{
+        margin-left: 0;
+        
+    }
+    
+    .tit{
+        margin-left: 0;
+    }
+    
+    .review{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    
+    .main0, .main3, .main7{
+        width: 350px;
+    }
+    
+    .rat, .strat{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main10, .main13{
+        width: 350px;
+    }
+    
+    .yeno{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 50px;
+    }
+    
+    .form2{
+        width: 100%;
+    }
+    
+    .form2 #area{
+        width: 100%;
+    }
+    
+    
+    .foot{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    
+    .uyo{
+        display: flex;
+        gap: 40px;
+    }
+    
+        
+    }
