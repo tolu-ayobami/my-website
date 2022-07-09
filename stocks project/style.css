@@ -48,7 +48,7 @@
     padding: 20px;
     background-color: black;
     color: white;
-    width: 250px;
+    width: 260px;
     height: 60px;
     border: none;
     outline: none;
@@ -80,7 +80,7 @@
     padding: 20px;
     background-color: rgb(231, 231, 231);
     color: black;
-    width: 250px;
+    width: 260px;
     height: 60px;
     border: none;
     outline: none;
@@ -207,6 +207,7 @@
     border: none;
     border-bottom: dotted gray;
     background-color: black;
+Color:gray;
 }
 .for label{
     color: gray;
@@ -471,6 +472,15 @@
 }
 
 @media screen and (max-width:480px){
+.btn2{
+Margin:auto;
+
+}
+
+.btn9{
+Width:130px;
+
+}
 
 
 
@@ -669,7 +679,15 @@ Max-width: 100%;
 
 @media screen and (max-width:380px){
 
+.btn2{
+Margin:auto;
 
+}
+
+.btn9{
+Width:130px;
+
+}
 
     .ema{
         width:100%;
@@ -867,7 +885,15 @@ Max-width: 100%;
 
 @media screen and (max-width:767px){
 
+.btn2{
+Margin:auto;
 
+}
+
+.btn9{
+Width:130px;
+
+}
 
     .ema{
         width:100%;
