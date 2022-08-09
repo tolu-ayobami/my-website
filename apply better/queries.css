@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito|Inter:400,700&display=swap");
+
+
+:root{
+    --clr-primary:#4c0458;
+    --clr-secondary:#ff9900;
+    --ff-primary: "Nunito", sans-serif;
+    --ff-secondary:"Inter", sans-serif;
+  }
+
+
+
+@media screen and (max-width:768px) {
+
+
+    .nav-links{
+        display: none;
+    }
+
+    .logo{
+        width: 200px;
+    }
+
+    
+.home-center{
+    padding-top: 75px;
+    
+}
+
+
+    .bar{
+        display: block;
+        font-size: 30px;
+        color: var(--clr-primary);
+    }
+
+
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+  
+
+
+.vid-section{
+    padding: 25px;
+
+}
+
+
+.video{
+    width: 90%;
+    
+}
+
+
+.student, .Agency{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 25px;
+    margin-top: 80px;
+    
+    
+  
+}
+
+
+.student1, .Finance, .academic, .Agency1, .saving{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+
+
+.financial-aid, .saving-plan{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 130px;
+    padding: 25px;
+    margin-top: 80px;
+
+}
+
+
+.Academy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 25px;
+    margin-top: 80px;
+    
+}
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:495px) {
+
+    
+.studentimg, .Agencyimg{
+    margin-right: 20%;
+  
+
+}
+
+    
+}
