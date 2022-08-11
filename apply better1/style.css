@@ -1,0 +1,627 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+
+:root{
+    --clr-primary:#4c0458;
+    --clr-secondary:#ff9900;
+    --ff-primary: "Nunito", sans-serif;
+    --ff-secondary:"Inter", sans-serif;
+  }
+
+
+
+ /* nav styling*/
+ .logo{
+     display: flex;
+     align-items: center;
+     gap: 8px;
+
+ }
+
+ .logo h1{
+    font-family: var(--ff-primary);
+    font-size: 30px;
+    font-weight: 900;
+    color:var(--clr-primary);
+    
+ }
+
+
+.logo img{
+    
+    height: 55px;
+    width: 55px;
+}
+
+  ul{
+     list-style-type:none;
+     display: flex;
+     gap: 20px;
+     
+     
+  }
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size:18px;
+font-family:var(--ff-primary);
+    
+}
+
+
+  .bar, .close{
+      display: none;
+  }
+
+
+  .login-butt{
+    padding: 12px;
+    width: 120px;
+      outline: none;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      background-color: var(--clr-primary);
+      cursor: pointer;
+      font-family: var(--ff-primary); 
+      font-size: 16px;
+  }
+
+  .nav-links{
+      display: flex;
+      align-items: center;
+      gap: 30px;
+
+  }
+
+  .nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: white;
+      padding: 10px;
+  }
+
+   /* end of nav styling*/
+
+
+   .welcome h1{
+       font-family: var(--ff-primary);
+       font-weight: 900;
+       font-size: 60px;
+       line-height: 91.4%;
+       text-align: center;
+       letter-spacing: -0.065em;
+       color:  #FFFFFF;
+   
+   }
+
+
+   
+  .login-butt2{
+    padding: 15px;
+    width: 130px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    background: var(--clr-secondary);
+    font-family: var(--ff-primary);
+    font-size: 18px;
+    
+
+}
+
+
+
+.register-butt{
+    padding: 15px;
+    width: 130px;
+    border: 2.9px solid var(--clr-secondary);
+    border-radius: 8px;    
+    outline:none;
+    background: none;
+    color: white;
+    font-family: var(--ff-primary);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+.home-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    gap: 40px;
+    padding-top: 190px;
+    
+}
+
+.overlay{
+    position: absolute;
+    background: var(--clr-primary);
+    opacity: 0.7;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+}
+
+
+.home{
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+  
+.ok{
+    position: absolute;
+   object-fit:cover;
+   width: 100%;
+   height: 600px;
+    z-index: -1;
+    transition:2.5s;
+    animation: all 1.3s ease-in-out;
+  }
+  
+  @keyframes all{
+    0%{
+        opacity: 0.6;
+    }
+  
+    50%{
+        opacity: 0.8;
+    }
+  
+    100%{
+        opacity: 2;
+    }
+  
+  }
+  
+
+.button-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+    
+
+    .vid-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        margin-top: 60px;
+       
+      
+    }
+
+
+    .vid-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    
+    .vid-page h1{
+       font-family: var(--ff-primary);
+       font-weight: 900;
+       font-size: 60px;
+       line-height:91%;
+       letter-spacing:-0.065em;
+       color:  var(--clr-primary);
+    }
+
+
+    
+    .vid-page p{
+        font-family: var(--ff-secondary);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        text-align: center;
+        color: #A1A0A0;
+        
+        
+    }
+
+
+    .video{
+      width: 90%;
+        
+    }
+
+#vide{
+    width: 100%; 
+    border-radius: 8px;
+    
+}
+
+
+.student1 h1{
+    font-family: var(--ff-primary);
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 91%;
+    letter-spacing: -0.065em;
+    color: #4C0458;
+
+}
+
+.student1 p{
+    font-family: var(--ff-secondary);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #A1A0A0;
+   
+ 
+}
+
+
+.student1{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    width: 40%;
+   
+    
+   
+    
+}
+
+
+.student{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 200px;
+   
+}
+
+
+
+.studentimg{
+    display: flex;
+    position: relative;
+    width:340px;
+    
+    
+}
+
+
+.stu1{
+    border-radius: 8px;
+    height: 410px;
+    width:190px;
+    position:relative;
+}
+
+
+.stu2{
+    width:190px;
+    height: 410px;
+    border-radius: 8px;
+    position: absolute;
+    left: 160px;
+    bottom: 100px;
+
+    
+}
+
+
+
+.finaimg{
+    width: 346px;
+    height: 500px;
+    
+}
+
+.financeimg{
+    border-radius: 8px;
+    width: 100%;
+}
+
+
+.Finance{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.Finance h1{
+    font-family: var(--ff-primary);
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 91%;
+    letter-spacing: -0.065em;
+    color: #4C0458;
+   
+}
+
+.Finance p{
+    font-family: var(--ff-secondary);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #A1A0A0;
+    
+ 
+  
+}
+
+
+.financial-aid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 150px;
+  
+}
+
+
+
+
+.academic{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+   
+   
+}
+
+.academic h1{
+    font-family: var(--ff-primary);
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 91%;
+    letter-spacing: -0.065em;
+    color: #4C0458;
+}
+
+.academic p{
+    font-family: var(--ff-secondary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #A1A0A0;
+    
+}
+
+.acadaimg{
+    width: 354px;
+    height: 500px;
+}
+
+.academyimg{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.Academy{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 150px;
+
+}
+
+
+.Agency1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    
+    
+   
+}
+
+
+
+.Agency1 h1{
+    font-family: var(--ff-primary);
+   font-weight: 900;
+    font-size: 60px;
+   line-height: 91%;
+   letter-spacing: -0.065em;
+   color: #4C0458;
+  
+}
+
+.Agency1 p{
+    font-family: var(--ff-secondary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #A1A0A0;
+}
+
+
+
+.Agencyimg{
+    display: flex;
+    position: relative;
+    width:340px;
+    
+   
+}
+
+
+
+.Agencyimg1{
+    border-radius: 8px;
+    height: 410px;
+    width:190px;
+    position:relative;
+}
+
+
+.Agencyimg2{
+    width:190px;
+    height: 410px;
+    border-radius: 8px;
+    position: absolute;
+    left: 160px;
+    bottom: 100px;
+
+    
+}
+
+
+
+.Agency{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 200px;
+
+}
+
+
+
+.saving{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    
+   
+   
+}
+
+.saving h1{
+    font-family: var(--ff-primary);
+    font-weight: 900;
+    font-size: 60px;
+   line-height: 91%;
+   letter-spacing: -0.065em;
+   color: #4C0458;
+   
+}
+
+.saving p{
+    font-family: var(--ff-secondary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #A1A0A0;
+    
+}
+
+.saving-planimg{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.savinimg{
+
+    width: 300px;
+    height: 400px;
+
+}
+
+
+
+
+.saving-plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 150px;
+
+}
+
+
+
+.logofooter{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+}
+
+.logofooter h1{
+   font-family: var(--ff-primary);
+   font-style: normal;
+   font-weight: 900;
+   font-size: 33px;
+   line-height: 45px;
+   color:white;
+}
+
+
+.logofooter img{
+   height: 60px;
+   width: 60px;
+}
+
+
+
+
+
+
+
+.footer{
+    background-color: var(--clr-primary);
+    margin-top: 200px;
+    height: 200px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
