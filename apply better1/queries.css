@@ -1,0 +1,285 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@0,300;400;500;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+
+:root{
+    --clr-primary:#4c0458;
+    --clr-secondary:#ff9900;
+    --ff-primary: "Nunito", sans-serif;
+    --ff-secondary:"Inter", sans-serif;
+  }
+
+
+
+@media screen and (max-width:768px) {
+
+
+    .nav-links{
+        display: none;
+    }
+
+    .logo img{
+    
+        height: 37px;
+        width: 37px;
+    }
+    
+    .logo h1{
+        font-family: 20px;
+    }
+
+
+.welcome h1{
+    font-size: 32px;
+    
+}
+
+.login-butt2{
+  height: 40px;
+    width: 94px;
+    font-size: 15px;
+    font-weight: none;
+line-height: 16px;
+padding: 0;
+border-radius: 4.7px;
+
+}
+
+.register-butt{
+    height: 40px;
+    width: 94px;
+    font-size: 15px;
+    font-weight: none;
+line-height: 16px;
+padding: 0;
+border-radius: 4.7px;
+}
+
+
+
+
+.overlay{
+    position: absolute;
+    background: var(--clr-primary);
+    opacity: 0.7;
+    width: 100%;
+    height: 341px;
+    z-index: -1;
+}
+
+
+.home{
+    position: relative;
+    height: 341px;
+    width: 100%;
+}
+
+  
+.ok{
+    position: absolute;
+   width: 100%;
+   object-fit:cover;
+    height: 341px;
+    z-index: -1;
+    transition: 0.5s;
+    animation: all 2s ease-in-out;
+  }
+  
+  @keyframes all{
+    0%{
+        opacity: 0.6;
+    }
+  
+    50%{
+        opacity: 0.6;
+    }
+  
+    100%{
+        opacity: 1;
+    }
+  
+  }
+  
+
+
+    
+.home-center{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    gap: 30px;
+    
+}
+
+
+    .bar{
+        display: block;
+        font-size: 30px;
+        color: var(--clr-primary);
+    }
+
+
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 13px;
+    }
+  
+
+
+    .vid-page h1{
+        font-size: 48px;
+       
+     }
+
+     
+    .vid-page p{
+        font-size: 16px;
+        line-height: 19px;
+    
+    }
+
+    .vid-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        margin-top: 60px;
+       
+      
+    }
+    
+    .video{
+        width: 100%;
+          
+      }
+
+
+    .student1 h1, .Finance h1, .academic h1, .Agency1 h1, .saving h1, .blog h1{
+        font-size: 48px;
+    }
+
+
+    
+    .student1 p, .Finance p, .academic p, .Agency1 p, .saving p, .blog p{
+        font-size: 16px;
+       
+    }
+
+    
+
+    .finaimg, .acadaimg, .savinimg{
+        width: 298px;
+    height: 470px;
+    }
+
+
+
+    .academyimg{
+
+        width: 100%;
+    }
+
+    .saving-planimg{
+
+        width: 100%;
+    }
+
+    .financeimg{
+        width: 100%;
+    }
+
+    
+.stu1,.Agencyimg1{
+    border-radius: 8px;
+    height: 380px;
+    width:175px;
+    position:relative;
+}
+
+
+.stu2, .Agencyimg2{
+    width:175px;
+    height: 380px;
+    border-radius: 8px;
+    position: absolute;
+    left: 160px;
+    bottom: 100px;
+
+    
+}
+
+
+.studentimg, .Agencyimg{
+    display: flex;
+    position: relative;
+    width:340px
+  
+}
+
+
+.student, .Agency{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 230px;
+    padding: 25px;
+    margin-top: 80px;
+    
+    
+  
+}
+
+
+
+.student1, .Finance, .academic, .Agency1, .saving{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+
+
+.financial-aid, .saving-plan{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 170px;
+    padding: 25px;
+    margin-top: 100px;
+
+}
+
+
+.Academy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 170px;
+    padding: 25px;
+    margin-top: 100px;
+    
+}
+
+
+
+}
+
+
+
+@media screen and (max-width:368px) {
+
+}
+
