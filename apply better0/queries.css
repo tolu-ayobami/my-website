@@ -1,0 +1,307 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+
+:root{
+    --clr-primary:#4c0458;
+    --clr-secondary:#ff9900;
+    --ff-primary: "Nunito", sans-serif;
+    --ff-secondary:"Inter", sans-serif;
+  }
+
+
+
+@media screen and (max-width:768px) {
+
+
+    .nav-links{
+        display: none;
+    }
+
+    .logo img{
+    
+        height: 38px;
+        width: 38px;
+    }
+    
+    .logo h1{
+        font-size: 30px;
+        
+    }
+
+
+.welcome h1{
+    font-size: 2em;
+    font-weight:800;
+    
+}
+
+.login-butt2{
+    height: 40px;
+    width: 110px;
+    font-size: 13px;
+    font-weight: none;
+    line-height: 16px;
+    padding: 0;
+    border-radius: 4.7px;
+
+}
+
+.register-butt{
+    height: 40px;
+    width: 110px;
+    font-size: 13px;
+    font-weight: none;
+    line-height: 16px;
+    padding: 0;
+    border-radius: 4.7px;
+    border: 1.7px solid var(--clr-secondary);
+}
+
+
+
+
+.overlay{
+    position: absolute;
+    background: var(--clr-primary);
+    opacity: 0.7;
+    width: 100%;
+    height: 345px;
+    z-index: -1;
+}
+
+
+.home{
+    position: relative;
+    height: 345px;
+    width: 100%;
+}
+
+  
+.ok{
+    position: absolute;
+   width: 100%;
+   object-fit:cover;
+    height: 345px;
+    z-index: -1;
+    transition: 0.5s;
+    animation: all 2s ease-in-out;
+  }
+  
+  @keyframes all{
+    0%{
+        opacity: 0.6;
+    }
+  
+    50%{
+        opacity: 0.6;
+    }
+  
+    100%{
+        opacity: 1;
+    }
+  
+  }
+
+    
+.home-center{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+
+    .bar{
+        display: block;
+        font-size: 30px;
+        color: var(--clr-primary);
+    }
+
+
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+    }
+  
+
+    
+.vid-section .content h1{
+    font-weight: 700;
+    font-size:35px;
+}
+
+
+.vid-section .content p{
+    font-size: 15px;
+}
+
+.vid-section .content{
+    width:80%;
+}
+
+
+.student-section .content, .financial-section .content, .academy-section .content, .agency-section .content, .plan-section .content{
+    width: 80%;
+}
+
+
+.student-section .content h1, .financial-section .content h1,  .academy-section .content h1, .agency-section .content h1, .plan-section .content h1{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+
+
+.student-section .content p, .financial-section .content p, .academy-section .content p, .agency-section .content p, .plan-section .content p{
+   
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+
+.animation .content1, .animation .content2, .animation .content3, .animation .content4, .animation .content5{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+
+
+.content3{
+    margin-top: 70px;
+    
+}
+
+
+.animation .first{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 83%;
+    margin-top: 100px;
+    
+}
+
+
+.animation .second{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: auto;
+    width: 90%;
+    margin-top: 70px;
+    
+}
+
+
+.animation .content1 h1, .animation .content2 h1, .animation .content3 h1, .animation .content4 h1, .animation .content5 h1{
+
+    font-weight: 700;
+    font-size: 25px;
+   
+
+}
+
+
+.blog .content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 20px;
+   
+}
+
+
+.hr{
+    width: 100%;
+    margin: auto;
+}
+
+
+.blog .content h1{
+   
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+.blog .content p{
+    font-family: var(--ff-secondary);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #A1A0A0;
+}
+
+
+
+.footer .content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin: auto;
+    text-align: center;
+   padding-top: 100px;
+    
+}
+
+
+.footer{
+    margin-top: 100px;
+    background: #000000;
+    height: 550px;
+}
+
+.social i{
+    font-size: 20px;
+}
+
+
+.footer-logo h1{
+    font-size: 30px;
+
+ }
+
+
+ .footer-logo img {
+    height: 38px;
+    width: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
