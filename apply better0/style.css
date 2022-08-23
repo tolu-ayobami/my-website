@@ -95,7 +95,7 @@ font-family:var(--ff-primary);
       align-items: center;
       justify-content: space-around;
       background-color: white;
-      padding: 15px;
+      padding: 13px;
       box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.09), -2px -2px 4px 0 rgba(0,0,0,0.09);
   }
 
