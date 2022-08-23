@@ -303,6 +303,8 @@
     background:white;
     position: absolute;
     left:-100%;
+    top:0;
+    bottom: 0;
     height:500px;
     display: flex;
    flex-direction:column;
