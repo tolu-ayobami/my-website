@@ -19,6 +19,11 @@
     --ff-secondary:"Inter", sans-serif;
   }
 
+body{
+Overflow-x:hidden;
+
+}
+
 
 
  /* nav styling*/
