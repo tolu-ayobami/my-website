@@ -237,7 +237,8 @@
 
 
 .blog .content h1{
-   
+   text-align: center;
+    margin-left:0px;
     font-weight: 700;
     font-size: 30px;
 }
