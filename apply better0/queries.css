@@ -303,7 +303,7 @@
     backdrop-filter: blur(20px);
     position: absolute;
     right: -100%;
-    height: 56vh;
+    height: 70vh;
     top:0;
     bottom:0;
     display: flex;
