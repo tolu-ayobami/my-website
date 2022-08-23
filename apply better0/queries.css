@@ -301,7 +301,7 @@
        
 .nav-links{
     background:white;
-    position: fixed;
+    position: absolute;
     right:-100%;
     height:500px;
     top:0;
