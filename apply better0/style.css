@@ -97,7 +97,7 @@ font-family:var(--ff-primary);
 
   .nav{
       position:fixed;
-      top:-1%;
+      top:0;
       z-index:1;
       Width:100%;
       display: flex;
