@@ -96,6 +96,10 @@ font-family:var(--ff-primary);
   }
 
   .nav{
+      position: absolute;
+      top:0;
+      z-index:1;
+      Width:100%;
       display: flex;
       align-items: center;
       justify-content: space-around;
@@ -174,6 +178,7 @@ font-family:var(--ff-primary);
 
 .home{
     position: relative;
+    margin-top:75px;
     height: 600px;
     width: 100%;
 }
