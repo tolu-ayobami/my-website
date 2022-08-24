@@ -96,8 +96,8 @@ font-family:var(--ff-primary);
   }
 
   .nav{
-      position: absolute;
-      top:0;
+      position:fixed;
+      top:-1%;
       z-index:1;
       Width:100%;
       display: flex;
@@ -178,7 +178,7 @@ font-family:var(--ff-primary);
 
 .home{
     position: relative;
-    margin-top:75px;
+    margin-top:70px;
     height: 600px;
     width: 100%;
 }
