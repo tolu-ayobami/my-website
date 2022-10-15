@@ -81,6 +81,12 @@
     cursor: pointer;
 }
 
+.send{
+display:flex;
+align-items:center;
+
+}
+
 @media screen and (max-width:700px) {
     .record{
         width: 70%;
