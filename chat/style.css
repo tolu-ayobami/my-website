@@ -20,7 +20,7 @@
 .sep{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 
@@ -40,8 +40,10 @@
 
 
 .two{
+    display:flex;
+    align-items:center;
     border-left: 1px solid gray;
-    padding: 0px 25px 0px 7px;
+    padding:10px;
 }
 
 #ic{
@@ -85,7 +87,7 @@
     }
 
     .tolu{
-        width: 90%;
+        width: 87%;
     }
     
 }
