@@ -3,7 +3,7 @@ var teg1 = document.querySelector("#ic");
 var teg2 = document.querySelector(".inp");
 var feg = document.querySelector("#close");
 var yup = document.querySelector(".record");
-var send = document.querySelector(".check");
+var send = document.querySelector("#check");
 var tolu = document.querySelector(".tolu");
 
 Send.onclick = function (){
