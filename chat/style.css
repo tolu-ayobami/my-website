@@ -6,7 +6,7 @@
 
 
 .tolu{
-    width: 24%;
+    width: 40%;
     margin: auto;
     padding: 7px;
     background-color: powderblue;
@@ -85,7 +85,7 @@
     }
 
     .tolu{
-        width: 78%;
+        width: 84%;
     }
     
 }
