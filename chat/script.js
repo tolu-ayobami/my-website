@@ -32,6 +32,7 @@ feg.onclick = function (){
     yup.style.display ="none";
     teg.style.display ="block";
     teg1.style.display ="none";
+    tolu.style.display ="flex";
 }
 
 
