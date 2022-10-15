@@ -34,9 +34,7 @@
     padding: 10px;
     outline: none;
     border: none;
-    background-color: powderblue;
-    Width:15%;
-    
+    background-color: powderblue; 
 }
 
 
@@ -97,10 +95,8 @@ gap:30px;
     }
 
     .tolu{
-        width: 90%;
+        width: 88%;
     }
-    .inp{
-    width:50%:
-    }
+   
     
 }
