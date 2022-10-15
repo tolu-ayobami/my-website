@@ -84,6 +84,8 @@
 .send{
 display:flex;
 align-items:center;
+Justify-content:center;
+gap:30px;
 
 }
 
@@ -93,7 +95,7 @@ align-items:center;
     }
 
     .tolu{
-        width: 87%;
+        width: 90%;
     }
     
 }
