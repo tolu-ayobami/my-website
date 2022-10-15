@@ -61,7 +61,8 @@
 .record{
     display: flex;
     flex-direction: column;
-   text-align: center;
+    text-align: center;
+   gap:15px;
    background-color: aliceblue;
    padding: 20px;
    width: 25%;
