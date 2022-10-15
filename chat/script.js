@@ -7,7 +7,7 @@ var send = document.querySelector("#check");
 var tolu = document.querySelector(".tolu");
 
 send.onclick = function (){
-tolu.style.display ="block";
+tolu.style.display ="flex";
 
 
 }
