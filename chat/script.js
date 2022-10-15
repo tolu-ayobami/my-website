@@ -8,6 +8,7 @@ var tolu = document.querySelector(".tolu");
 
 send.onclick = function (){
 tolu.style.display ="flex";
+yup.style.display ="none";
 
 
 }
