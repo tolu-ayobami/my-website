@@ -89,13 +89,13 @@ gap:30px;
 
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:500px) {
     .record{
         width: 70%;
     }
 
     .tolu{
-        width: 88%;
+        width: 90%;
     }
    
     
