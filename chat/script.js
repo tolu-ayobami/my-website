@@ -6,8 +6,8 @@ var yup = document.querySelector(".record");
 var send = document.querySelector("#check");
 var tolu = document.querySelector(".tolu");
 
-Send.onclick = function (){
-Tolu.style.display ="block";
+send.onclick = function (){
+tolu.style.display ="block";
 
 
 }
