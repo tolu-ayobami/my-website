@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.tolu{
+    width: 25%;
+    margin: auto;
+    padding: 7px;
+    background-color: powderblue;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.sep{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.tolu i{
+    color: blue;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.inp{
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: powderblue;
+    
+}
+
+
+.two{
+   display: flex;
+   align-items: center;
+   border-left: 1px solid gray;
+   padding: 10px;
+
+}
+
+#ic{
+    display: none;
+}
+
+
+
+
+.di{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.record{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   gap: 10px;
+   background-color: aliceblue;
+   padding: 20px;
+   width: 25%;
+   margin:auto;
+   position: relative;
+   top: 100px;
+
+   
+
+}
+
+.record h4, span, i{
+    color: blue;
+}
+
+.record i{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#close{
+    color: red;
+
+}
+
+.dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: red; 
+   animation: example 2s ease-in-out infinite
+
+}
+
+
+@keyframes example {
+    0%   {background-color: red;}
+  25%  {background-color: rgb(250, 123, 123);}
+  50%  {background-color: rgb(196, 69, 69);}
+  100% {background-color: rgb(247, 53, 53);}
+    }
+
+.time{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+.send{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .record{
+        width: 70%;
+    }
+
+    .tolu{
+        width: 90%;
+    }
+    
+}
